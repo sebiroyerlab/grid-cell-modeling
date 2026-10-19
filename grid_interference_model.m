@@ -16,8 +16,8 @@ function [thetaF, grid_score, grid_size] = grid_interference_model()
 n_OC1 = 100; n_OC2 = 100; n_OC = n_OC1+n_OC2;       % Number of oscillatory cells (OCs)
 n_GC = 100;                                         % Number of grid cells
 
-%f1 = 7.5; f2 = 9.4;                                 % PI theta frequencies for the two populations of OCs
-%f1 = 7.4; f2 = 8.7;                                 % Cue theta frequencies for the two populations of OCs
+%f1 = 7.1; f2 = 9.3;                                 % PI theta frequencies for the two populations of OCs
+%f1 = 7.2; f2 = 8.7;                                 % Cue theta frequencies for the two populations of OCs
 f1 = 8.4; f2 = 9.5;                                 % OF theta frequencies for the two populations of OCs
 
 time_step = 0.001;                                  % time_step (s)
